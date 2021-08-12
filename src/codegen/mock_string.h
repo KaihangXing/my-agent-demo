@@ -1,0 +1,52 @@
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+#ifndef DEVTOOLS_CDBG_DEBUGLETS_JAVA_MOCK_STRING_H
+#define DEVTOOLS_CDBG_DEBUGLETS_JAVA_MOCK_STRING_H
+
+#include "jni_proxy_string.h"
+#include "testing/base/public/gmock.h"
+
+//
+// Generated code. Don't edit.
+//
+
+namespace jniproxy {
+
+class MockString : public StringClass {
+ public:
+  MOCK_METHOD0(GetClass, jclass());
+
+  MOCK_METHOD1(valueOf, ::devtools::cdbg::ExceptionOr<std::string>(
+      jint
+      ));
+
+  MOCK_METHOD1(valueOf, ::devtools::cdbg::ExceptionOr<std::string>(
+      jlong
+      ));
+
+  MOCK_METHOD1(valueOf, ::devtools::cdbg::ExceptionOr<std::string>(
+      jfloat
+      ));
+
+  MOCK_METHOD1(valueOf, ::devtools::cdbg::ExceptionOr<std::string>(
+      jdouble
+      ));
+};
+
+}  // namespace jniproxy
+
+#endif // DEVTOOLS_CDBG_DEBUGLETS_JAVA_MOCK_STRING_H

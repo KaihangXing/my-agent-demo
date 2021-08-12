@@ -1,0 +1,10 @@
+/source/third_party/install/lib/libgflags.a
+/source/third_party/install/lib/libgflags_nothreads.a
+/source/third_party/install/include/gflags/gflags.h
+/source/third_party/install/include/gflags/gflags_declare.h
+/source/third_party/install/include/gflags/gflags_completions.h
+/source/third_party/install/lib/cmake/gflags/gflags-config.cmake
+/source/third_party/install/lib/cmake/gflags/gflags-config-version.cmake
+/source/third_party/install/lib/cmake/gflags/gflags-export.cmake
+/source/third_party/install/lib/cmake/gflags/gflags-export-noconfig.cmake
+/source/third_party/install/bin/gflags_completions.sh
